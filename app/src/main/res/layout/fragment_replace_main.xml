@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.lnframeworkdemo.ReplaceMainFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="上面这块是固定的，只需关心下面的切换效果，下面每隔2秒钟切换一次fragment"
+        android:textSize="13sp" />
+
+    <FrameLayout
+        android:id="@+id/vg_contain_child"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

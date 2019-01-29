@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.lnframeworkdemo.BackMainFragment">
+
+    <Button
+        android:id="@+id/btn_toIntercept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到拦截back的Fragment" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="根节点通过按钮模拟Activity的返回事件" />
+
+</LinearLayout>

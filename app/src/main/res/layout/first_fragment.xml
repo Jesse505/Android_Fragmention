@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_toLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到登录页，可测试ADD和REPLACE" />
+
+    <Button
+        android:id="@+id/btn_toLoginWithoutAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到登录页，可测试ADD和REPLACE（无动画）" />
+
+    <Button
+        android:id="@+id/btn_replaceChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试replaceChild方式" />
+
+    <Button
+        android:id="@+id/btn_interceptBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试拦截back方式" />
+
+</LinearLayout>

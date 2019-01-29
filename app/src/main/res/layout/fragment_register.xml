@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_addToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="以add方式跳转到Loginfragment" />
+
+    <Button
+        android:id="@+id/btn_replaceToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="以replace方式跳转到Loginfragment" />
+
+
+</LinearLayout>
